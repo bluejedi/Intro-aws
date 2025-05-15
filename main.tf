@@ -20,7 +20,7 @@ resource "aws_s3_bucket" "test" {
   }
 }
 resource "aws_instance" "app_server" {
-  ami           = "ami-0e58b56aa4d64231b" 
+  ami           = "ami-0953476d60561c955" 
   instance_type = "t2.micro"
   tags = {
     Name = "JunTestAwsInstance"
